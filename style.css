@@ -104,8 +104,15 @@
       background-color: #fff;
     }
   
-      .t456,
-      .t456 .t456__list_item {
-        text-align: left;
+      .t456__rightwrapper {
+        padding: 20px;
       }
+        .t456,
+        .t456 .t456__list_item {
+          text-align: left;
+        }
+
+        .t456 .t456__list_item {
+          padding: 20px !important;
+        }
 }
