@@ -85,6 +85,14 @@
   background-color: #fff;
 }
 
-  .t456__burger span {
-    background-color: #000;
-  }  
+  .t456__maincontainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    height: 100vh;
+    background-color: #fff;
+  }
+    .t456__burger span {
+      background-color: #000;
+    }  
