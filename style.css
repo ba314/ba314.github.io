@@ -104,8 +104,8 @@
       background-color: #fff;
     }
   
-      .t456__logo,
-      .t456__list_item {
+      .t456,
+      .t456 .t456__list_item {
         text-align: left;
       }
 }
