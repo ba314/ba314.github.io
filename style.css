@@ -91,7 +91,7 @@
   }
 
     .t456__burger span {
-      -color: #000;
+      background-color: #000;
     }  
 
 @media screen and (max-width: 980px) {
