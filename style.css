@@ -81,7 +81,7 @@
 
 .t-tildalabel {display: none;}
 
-.t456__mobile {
+/*.t456__mobile {
   background-color: #fff;
 }
 
@@ -91,7 +91,7 @@
   }
 
     .t456__burger span {
-      background-color: #000;
+      -color: #000;
     }  
 
 @media screen and (max-width: 980px) {
@@ -116,4 +116,4 @@
         padding: 10px 40px !important;
         font-size: 24px;
       }
-}
+}*/
