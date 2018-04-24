@@ -129,8 +129,6 @@
   box-shadow: 0 8px 24px rgba(34, 34, 34, .2);
 }
 
-iframe .logo { display: none; )
-
-iframe:after {
+.t116__videowrapper::after {
   background-image: url("https://static.tildacdn.com/tild3865-3035-4537-a363-663634306233/Apple_iPhone_8_Space.png");
 }  
