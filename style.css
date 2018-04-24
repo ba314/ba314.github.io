@@ -131,5 +131,11 @@
 
 .t116__videowrapper::before {
   content: '';
-  background-image: url("https://static.tildacdn.com/tild3865-3035-4537-a363-663634306233/Apple_iPhone_8_Space.png");
+  position: absolute;
+  top: -21%;
+  left: 30%;
+  width: 100%;
+  height: 142%;
+  background: url("https://static.tildacdn.com/tild3865-3035-4537-a363-663634306233/Apple_iPhone_8_Space.png") no-repeat;
+  background-size: contain;
 }  
