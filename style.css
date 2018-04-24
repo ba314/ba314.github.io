@@ -130,3 +130,7 @@
 }
 
 iframe .logo { display: none; )
+
+iframe:after {
+  background-image: url("https://static.tildacdn.com/tild3865-3035-4537-a363-663634306233/Apple_iPhone_8_Space.png");
+}  
