@@ -138,4 +138,5 @@
   height: 142%;
   background: url("https://static.tildacdn.com/tild3865-3035-4537-a363-663634306233/Apple_iPhone_8_Space.png") no-repeat;
   background-size: contain;
+  filter: drop-shadow(0 16px 24px rgba(34, 34, 34, .2));
 }  
