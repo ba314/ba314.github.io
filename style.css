@@ -135,10 +135,10 @@
 
 #rec52536795,
 #rec52537822 .t-cover {
-  background: #e26a6a;
-  background: -moz-radial-gradient(ellipse at 100% 100%, #e26a6a 0%, #d2527f 100%);
-  background: -webkit-radial-gradient(ellipse at 100% 100%, #e26a6a 0%,#d2527f 100%);
-  background: radial-gradient(ellipse at 100% 100%, #e26a6a 0%,#d2527f 100%);
+  background-image: #e26a6a;
+  background-image: -moz-radial-gradient(ellipse at 100% 100%, #e26a6a 0%, #d2527f 100%);
+  background-image: -webkit-radial-gradient(ellipse at 100% 100%, #e26a6a 0%,#d2527f 100%);
+  background-image: radial-gradient(ellipse at 100% 100%, #e26a6a 0%,#d2527f 100%);
 }  
 
 .t195__img,
