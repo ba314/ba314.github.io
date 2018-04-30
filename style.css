@@ -140,3 +140,14 @@
   background-size: contain;
   filter: drop-shadow(0 16px 24px rgba(34, 34, 34, .2));
 }  
+
+#rec52536795 {
+  background: #4b77be;
+  background: -moz-linear-gradient(-45deg, #4b77be 0%, #049372 100%);
+  background: -webkit-linear-gradient(-45deg, #4b77be 0%,#049372 100%);
+  background: linear-gradient(135deg, #4b77be 0%,#049372 100%);
+}  
+
+.t480__blockimg {
+  filter: drop-shadow(0 16px 24px rgba(34, 34, 34, .2));
+}  
