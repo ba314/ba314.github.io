@@ -133,13 +133,19 @@
   filter: drop-shadow(0 16px 24px rgba(34, 34, 34, .2));
 }  
 
-#rec52536795,
+#rec52536795 {
+  background: #e26a6a;
+  background: -moz-radial-gradient(ellipse at 100% 100%, #e26a6a 0%, #d2527f 100%);
+  background: -webkit-radial-gradient(ellipse at 100% 100%, #e26a6a 0%,#d2527f 100%);
+  background: radial-gradient(ellipse at 100% 100%, #e26a6a 0%,#d2527f 100%);
+} 
+
 #rec52537822 .t-cover {
-  background-image: #e26a6a;
-  background-image: -moz-radial-gradient(ellipse at 100% 100%, #e26a6a 0%, #d2527f 100%);
-  background-image: -webkit-radial-gradient(ellipse at 100% 100%, #e26a6a 0%,#d2527f 100%);
-  background-image: radial-gradient(ellipse at 100% 100%, #e26a6a 0%,#d2527f 100%);
-}  
+  background: #e26a6a !important;
+  background: -moz-radial-gradient(ellipse at 100% 100%, #e26a6a 0%, #d2527f 100%) !important;
+  background: -webkit-radial-gradient(ellipse at 100% 100%, #e26a6a 0%,#d2527f 100%) !important;
+  background: radial-gradient(ellipse at 100% 100%, #e26a6a 0%,#d2527f 100%) !important;
+} 
 
 .t195__img,
 .t480__blockimg {
