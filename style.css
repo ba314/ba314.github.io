@@ -167,7 +167,7 @@
 }
 
 .t195__img:hover {
-  box-shadow: 0 16px 24px rgba(34, 34, 34, .2);
+  box-shadow: 0 16px 32px rgba(34, 34, 34, .2);
 }
 
 .t480__blockimg {
@@ -175,5 +175,5 @@
 }  
 
 .t480__blockimg:hover {
-  filter: drop-shadow(0 16px 24px rgba(34, 34, 34, .2));
+  filter: drop-shadow(0 16px 32px rgba(34, 34, 34, .2));
 }  
