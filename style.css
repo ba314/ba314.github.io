@@ -134,10 +134,10 @@
 }  
 
 #rec52536795 {
-  background: #e26a6a;
-  background: -moz-radial-gradient(ellipse at 100% 100%, #22A7F0, #8E44AD);
-  background: -webkit-radial-gradient(ellipse at 100% 100%, #22A7F0, #8E44AD);
-  background: radial-gradient(ellipse at 100% 100%, #22A7F0, #8E44AD);
+  background: #F03434;
+  background: -moz-radial-gradient(ellipse at 0 0, #F03434, #F2784B);
+  background: -webkit-radial-gradient(ellipse at 0 0, #F03434, #F2784B);
+  background: radial-gradient(ellipse at 0 0, #F03434, #F2784B);
 } 
 
 /*#recorddiv52537822 {
