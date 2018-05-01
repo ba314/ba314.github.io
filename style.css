@@ -135,16 +135,16 @@
 
 #rec52536795 {
   background: #e26a6a;
-  background: -moz-radial-gradient(ellipse at 100% 100%, #e26a6a 0%, #d2527f 100%);
-  background: -webkit-radial-gradient(ellipse at 100% 100%, #e26a6a 0%,#d2527f 100%);
-  background: radial-gradient(ellipse at 100% 100%, #e26a6a 0%,#d2527f 100%);
+  background: -moz-radial-gradient(ellipse at 100% 100%, #22A7F0, #8E44AD);
+  background: -webkit-radial-gradient(ellipse at 100% 100%, #22A7F0, #8E44AD);
+  background: radial-gradient(ellipse at 100% 100%, #22A7F0, #8E44AD);
 } 
 
 #rec52537822 .t-cover {
   background: #e26a6a !important;
-  background: -moz-radial-gradient(ellipse at 100% 100%, #e26a6a 0%, #d2527f 100%) !important;
-  background: -webkit-radial-gradient(ellipse at 100% 100%, #e26a6a 0%,#d2527f 100%) !important;
-  background: radial-gradient(ellipse at 100% 100%, #e26a6a 0%,#d2527f 100%) !important;
+  background: -moz-radial-gradient(ellipse at 100% 100%, #22A7F0, #8E44AD) !important;
+  background: -webkit-radial-gradient(ellipse at 100% 100%, #22A7F0, #8E44AD) !important;
+  background: radial-gradient(ellipse at 100% 100%, #22A7F0, #8E44AD) !important;
 } 
 
 .t195__img,
