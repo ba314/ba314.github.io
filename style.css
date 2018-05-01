@@ -172,6 +172,7 @@
 
 /*#recorddiv52537822,*/
 .t480__blockimg {
+  height: calc(100vh - 180px);
   filter: drop-shadow(0 0 16px rgba(0, 0, 0, .12));
 }  
 
