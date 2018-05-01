@@ -140,7 +140,7 @@
   background: radial-gradient(ellipse at 100% 100%, #22A7F0, #8E44AD);
 } 
 
-#rec52537822 .t-cover {
+#recorddiv52537822 {
   background: #e26a6a !important;
   background: -moz-radial-gradient(ellipse at 100% 100%, #22A7F0, #8E44AD) !important;
   background: -webkit-radial-gradient(ellipse at 100% 100%, #22A7F0, #8E44AD) !important;
@@ -170,6 +170,7 @@
   box-shadow: 0 4px 24px rgba(0, 0, 0, .12);
 }
 
+#recorddiv52537822,
 .t480__blockimg {
   filter: drop-shadow(0 0 16px rgba(0, 0, 0, .12));
 }  
