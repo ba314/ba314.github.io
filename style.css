@@ -94,14 +94,9 @@
       color: #000;
     }
   
-    .t456__burger {
-      position: fixed;
-      top: 30px;
-    }
-
-      .t456__burger span {
-        background-color: #000;
-      } 
+  .t456__burger span {
+    background-color: #000;
+  } 
   
   .t456__leftwrapper {
     display: none;
