@@ -162,7 +162,7 @@
 .t195__imgsection,
 .t480__blockimg {
   transform: translateY(0);
-  transition: transform .3s cubic-bezier(.25,.1,.25,1);
+  transition: all .3s cubic-bezier(.25,.1,.25,1);
 }  
 
 .t195__imgsection:hover,
