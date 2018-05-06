@@ -81,6 +81,9 @@
 
 .t-tildalabel {display: none;}
 
+.t456 {
+  box-shadow: 0 0 16px rgba(0, 0, 0, .24);
+} 
 /*.t456__mobile {
   background-color: #fff;
 }
