@@ -158,11 +158,12 @@
   background: radial-gradient(ellipse at 0 0, #0a0a0a, #333);
 }
 
-#rec44612090 {
+#rec44612090,
+#rec53370971 {
   background: #607d8b;
-  background: -moz-radial-gradient(ellipse at 0 0, #607d8b, #333);
-  background: -webkit-radial-gradient(ellipse at 0 0, #607d8b, #333);
-  background: radial-gradient(ellipse at 0 0, #607d8b, #333);
+  background: -moz-radial-gradient(ellipse at 0 0, #2574A9, #5c97bf);
+  background: -webkit-radial-gradient(ellipse at 0 0, #2574A9, #5c97bf);
+  background: radial-gradient(ellipse at 0 0, #2574A9, #5c97bf);
 }
 
 /*#recorddiv52537822 {
