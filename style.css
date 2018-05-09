@@ -161,9 +161,9 @@
 #rec44612090,
 #rec53370971 {
   background: #607d8b;
-  background: -moz-radial-gradient(ellipse at 0 0, #2574A9, #5c97bf);
-  background: -webkit-radial-gradient(ellipse at 0 0, #2574A9, #5c97bf);
-  background: radial-gradient(ellipse at 0 0, #2574A9, #5c97bf);
+  background: -moz-radial-gradient(ellipse at 0 0, #607d8b, #8eacbb);
+  background: -webkit-radial-gradient(ellipse at 0 0, #607d8b, #8eacbb);
+  background: radial-gradient(ellipse at 0 0, #607d8b, #8eacbb);
 }
 
 /*#recorddiv52537822 {
