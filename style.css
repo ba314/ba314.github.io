@@ -142,7 +142,8 @@
   filter: drop-shadow(0 16px 24px rgba(34, 34, 34, .2));
 }  
 
-#rec52536795 {
+#rec52536795,
+#rec43552872 {
   background: #F03434;
   background: -moz-radial-gradient(ellipse at 0 0, #F03434, #F2784B);
   background: -webkit-radial-gradient(ellipse at 0 0, #F03434, #F2784B);
