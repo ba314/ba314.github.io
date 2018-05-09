@@ -150,7 +150,7 @@
   background: radial-gradient(ellipse at 0 0, #F03434, #F2784B);
 } 
 
-#rec43552872,
+#rec43553766,
 #rec53369849 {
   background: #0a0a0a;
   background: -moz-radial-gradient(ellipse at 0 0, #0a0a0a, #333);
@@ -177,7 +177,7 @@
 .t195__imgsection,
 .t480__blockimg {
   transform: translateY(0);
-  transition: all .3s cubic-bezier(.25,.1,.25,1);
+  transition: transform .3s cubic-bezier(.25,.1,.25,1);
 }  
 
 .t195__imgsection:hover,
