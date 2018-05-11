@@ -185,15 +185,15 @@
   transition-property: opacity, transform, box-shadow;
   -webkit-transition-duration: 1s, 1s, .3s;
   transition-duration: 1s, 1s, .3s;
-  -webkit-transition-timing-function: cubic-bezier(.19, 1, .22, 1), cubic-bezier(.19, 1, .22, 1), cubic-bezier(.25,.1,.25,1);
-  transition-timing-function: cubic-bezier(.19, 1, .22, 1), cubic-bezier(.19, 1, .22, 1), cubic-bezier(.25,.1,.25,1);
+  -webkit-transition-timing-function: cubic-bezier(.19, 1, .22, 1), cubic-bezier(.19, 1, .22, 1), linear;
+  transition-timing-function: cubic-bezier(.19, 1, .22, 1), cubic-bezier(.19, 1, .22, 1), linear;
 }
 
 .t195__imgsection,
 .t480__blockimg,
 .t480 .t-btn {
   transform: translateY(0);
-  transition: transform .3s cubic-bezier(.25,.1,.25,1), box-shadow .3s cubic-bezier(.25,.1,.25,1);
+  transition: transform .3s cubic-bezier(.25,.1,.25,1), box-shadow .3s linear;
 }  
 
 .t195__imgsection:hover,
