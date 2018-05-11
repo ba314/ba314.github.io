@@ -186,7 +186,7 @@
 .t480__blockimg,
 .t480 .t-btn {
   transform: translateY(0);
-  transition: transform .3s cubic-bezier(.25,.1,.25,1);
+  transition: transform, box-shadow .3s cubic-bezier(.25,.1,.25,1);
 }  
 
 .t195__imgsection:hover,
