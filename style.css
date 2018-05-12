@@ -81,6 +81,10 @@
 
 .t-tildalabel {display: none;}
 
+.t-title {
+  font-weight: 900;
+}  
+
 .t-btn {
   padding-left: 30px;
   padding-right: 30px;
