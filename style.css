@@ -214,13 +214,12 @@
   box-shadow: 0 4px 24px rgba(0, 0, 0, .24);
 }
 
-/*#recorddiv52537822,*/
-.t480__blockimg,
-.t480 .t-btn {
+.t-btn,
+.t480__blockimg {
   filter: drop-shadow(0 0 16px rgba(0, 0, 0, .24));
 }  
 
-.t480__blockimg:hover,
-.t480 .t-btn:hover {
+.t-btn:hover,
+.t480__blockimg:hover {
   filter: drop-shadow(0 4px 24px rgba(0, 0, 0, .24));
 }  
