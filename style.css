@@ -81,6 +81,12 @@
 
 .t-tildalabel {display: none;}
 
+.t-btn {
+  padding-left: 30px;
+  padding-right: 30px;
+  min-width: 180px;
+}
+
 .t456 {
   box-shadow: 0 0 16px rgba(0, 0, 0, .24);
 } 
