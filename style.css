@@ -235,7 +235,7 @@
 
 .t-btn:hover,
 .t195__img:hover {
-  box-shadow: 0 4px 24px rgba(0, 0, 0, .12);
+  box-shadow: 0 4px 24px rgba(0, 0, 0, .24);
 }
 
 .t480__blockimg {
@@ -243,5 +243,5 @@
 }  
 
 .t480__blockimg:hover {
-  filter: drop-shadow(0 4px 24px rgba(0, 0, 0, .12));
+  filter: drop-shadow(0 4px 24px rgba(0, 0, 0, .24));
 }  
