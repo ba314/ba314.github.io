@@ -189,16 +189,16 @@
   transition-timing-function: cubic-bezier(.19, 1, .22, 1), cubic-bezier(.19, 1, .22, 1), linear;
 }
 
+.t-btn,
 .t195__imgsection,
-.t480__blockimg,
-.t480 .t-btn {
+.t480__blockimg {
   transform: translateY(0);
   transition: transform .3s cubic-bezier(.25,.1,.25,1), box-shadow .3s linear;
 }  
 
+.t-btn:hover,
 .t195__imgsection:hover,
-.t480__blockimg:hover,
-.t480 .t-btn:hover {
+.t480__blockimg:hover {
   transform: translateY(-4px);
 }
 
