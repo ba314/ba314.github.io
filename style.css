@@ -137,9 +137,6 @@
       }
 }*/
 
-/*[data-tilda-page-id="2198884"] { background-color: #eee; }
-[data-tilda-page-id="2717869"] { background-color: #0a0a0a; }*/
-
 [data-tilda-page-id="2717869"] .t116__videowrapper::before {
   content: '';
   position: absolute;
