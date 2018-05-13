@@ -204,6 +204,12 @@
   }
 }
 
+@media screen and (max-width: 960px) {
+  .t480__btn-wrapper {
+    width: 100%;
+  }
+}  
+
 .t195__img.t-animate[data-animate-style=zoomin] {
   -webkit-transition-property: opacity, transform, box-shadow;
   transition-property: opacity, transform, box-shadow;
