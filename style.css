@@ -169,6 +169,7 @@
 }
 
 #rec44612090,
+#rec53690994,
 #rec53370971 {
   background: #00838f;
   background: -moz-radial-gradient(ellipse at 0 0, #00838f, #66bb6a);
@@ -183,7 +184,8 @@
   background: radial-gradient(ellipse at 0 0, #2C3E50, #67809F);
 }
 
-#rec50313123 {
+#rec50313123,
+#rec53690996 {
   background: #F2784B;
   background: -moz-radial-gradient(ellipse at 0 0, #F2784B, #F4B350);
   background: -webkit-radial-gradient(ellipse at 0 0, #F2784B, #F4B350);
