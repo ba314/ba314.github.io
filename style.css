@@ -190,30 +190,6 @@
   background: radial-gradient(ellipse at 0 0, #F2784B, #F4B350);
 }
 
-/*#recorddiv52537822 {
-  background: #e26a6a !important;
-  background: -moz-radial-gradient(ellipse at 100% 100%, #22A7F0, #8E44AD) !important;
-  background: -webkit-radial-gradient(ellipse at 100% 100%, #22A7F0, #8E44AD) !important;
-  background: radial-gradient(ellipse at 100% 100%, #22A7F0, #8E44AD) !important;
-} */
-
-@media screen and (max-width: 960px) {
-  .t480 .t-container {
-    display: flex;
-    flex-flow: column-reverse;
-  }
-}
-
-@media screen and (max-width: 640px) {
-  .t480__btn-wrapper {
-    width: 100%;
-  }
-  
-    .t-btn {
-      width: 100%;
-    }
-}  
-
 .t195__img.t-animate[data-animate-style=zoomin] {
   -webkit-transition-property: opacity, transform, box-shadow;
   transition-property: opacity, transform, box-shadow;
@@ -231,30 +207,6 @@
   transition-property: transform;
 }
 
-.t480__blockimg {
-  background-size: contain;
-  transition-property: transform, filter;
-  filter: drop-shadow(0 0 16px rgba(0, 0, 0, .12));
-}
-
-.t-btn,
-.t195__imgsection,
-.t480__blockimg {
-  transform: translateY(0);
-  transition-duration: .3s;
-  transition-timing-function: cubic-bezier(.25, .1, .25, 1);
-}
-
-.t-btn:hover,
-.t195__imgsection:hover,
-.t480__blockimg:hover {
-  transform: translateY(-4px);
-}
-
-.t480__blockimg:hover {
-  filter: drop-shadow(0 4px 24px rgba(0, 0, 0, .24));
-}  
-
 .t195__img {
   margin-top: 4px;
   margin-bottom: 10px;
@@ -271,3 +223,59 @@
 .t195__img:hover {
   box-shadow: 0 4px 24px rgba(0, 0, 0, .24);
 }
+
+@media screen and (max-width: 960px) {
+  .t478 .t-container,
+  .t480 .t-container {
+    display: flex;
+    flex-flow: column-reverse;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .t480__btn-wrapper {
+    width: 100%;
+  }
+  
+    .t-btn {
+      width: 100%;
+    }
+}
+
+.t478__title {
+  margin-bottom: 16px;
+}
+
+.t478__descr {
+  margin-top: 28px;
+}
+
+.t478__blockimg,
+.t480__blockimg {
+  background-size: contain;
+  transition-property: transform, filter;
+  filter: drop-shadow(0 0 16px rgba(0, 0, 0, .12));
+}
+
+.t-btn,
+.t195__imgsection,
+.t478__blockimg,
+.t480__blockimg {
+  transform: translateY(0);
+  transition-duration: .3s;
+  transition-timing-function: cubic-bezier(.25, .1, .25, 1);
+}
+
+.t-btn:hover,
+.t195__imgsection:hover,
+.t478__blockimg:hover,
+.t480__blockimg:hover {
+  transform: translateY(-4px);
+}
+
+.t478__blockimg:hover,
+.t480__blockimg:hover {
+  filter: drop-shadow(0 4px 24px rgba(0, 0, 0, .24));
+}  
+
+
