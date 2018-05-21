@@ -91,7 +91,8 @@
   min-width: 180px;
 }
 
-.t456 {
+.t456:not(.t456__hidden),
+.t456__mobile_container {
   box-shadow: 0 0 16px rgba(0, 0, 0, .24);
 } 
 
