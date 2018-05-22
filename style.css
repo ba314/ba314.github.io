@@ -107,6 +107,14 @@
     .t456__mobile_text {
       color: #000;
     }
+ 
+  .t456__maincontainer {
+    position: fixed;
+    z-index: 110;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+  }
   
   .t456__burger span {
     background-color: #000;
