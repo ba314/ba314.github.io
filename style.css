@@ -97,10 +97,15 @@ body {
   min-width: 180px;
 }
 
-.t456:not(.t456__hidden),
+@media screen and (min-width: 980px) {
+  .t456 {
+    box-shadow: 0 0 16px rgba(0, 0, 0, .24);
+  }
+}  
+
 .t456__mobile_container {
   box-shadow: 0 0 16px rgba(0, 0, 0, .24);
-} 
+}
 
 @media screen and (max-width: 980px) {
   .t456__mobile {
