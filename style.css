@@ -97,6 +97,13 @@ body {
   min-width: 180px;
 }
 
+.t-slds_items-wrapper {
+  -webkit-transform: none !important;
+  -moz-transform: none !important;
+  -o-transform: none !important;
+  transform: none !important;
+} 
+
 @media screen and (min-width: 980px) {
   .t456 {
     box-shadow: 0 0 16px rgba(0, 0, 0, .24);
