@@ -102,6 +102,10 @@ body {
   -moz-transform: none !important;
   -o-transform: none !important;
   transform: none !important;
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -o-transition: none !important;
+  transition: none !important;
 } 
 
 @media screen and (min-width: 980px) {
