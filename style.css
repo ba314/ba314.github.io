@@ -224,7 +224,7 @@ body {
   background: radial-gradient(ellipse at 0 0, #F2784B, #F4B350);
 }
 
-.t195__img.t-animate[data-animate-style=zoomin] {
+.t195__img[data-animate-style=zoomin] {
   -webkit-transition-property: opacity, transform, box-shadow;
   transition-property: opacity, transform, box-shadow;
   -webkit-transition-duration: 1s, 1s, .3s;
