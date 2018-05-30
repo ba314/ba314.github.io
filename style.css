@@ -134,6 +134,33 @@ body {
       padding: 10px 0 20px;
     }
 }  
+
+@media screen and (min-width: 641px) and (max-width: 980px) {
+  .t456__mobile { display: none; }
+  
+  .t456 {
+    display: block !important;
+    height: 80px !important;
+  }  
+  
+    .t456__leftwrapper {
+      padding: 0 0 0 40px;
+    }  
+  
+      .t456__logo {
+        margin: 0;
+      }  
+  
+    .t456__rightwrapper {
+      width: unset;
+      padding: 0 40px 0 0;
+    }  
+  
+      .t456__list_item {
+        display: inline;
+        padding: 0 15px;
+      }  
+}
   
 #rec52536795,
 #rec43552872 {
