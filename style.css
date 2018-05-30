@@ -109,20 +109,30 @@ body {
 } */
 
 @media screen and (max-width: 980px) {
-  .t456__mobile {
+  #rec51885586 {
     position: fixed;
-    width: 100%;
+    z-index: 100;
+    left: 0;
+    right: 0;
+  }
+  
+  .t456.t456__hidden,
+  .t456__mobile {
     background-color: rgba(255, 255, 255, .95);
     box-shadow: 0 0 16px rgba(0, 0, 0, .24);
   }  
   
+  .t456_opened { box-shadow: none; }
+    
+  
+  .t456__mobile {
+    position: relative;
+    z-index: 100;
+  }  
+  
     .t456__mobile_text {
       color: #000;
-    }
-  
-  .t456.t456__hidden {
-    position: fixed;
-  } 
+    } 
   
   /*.t456.t456__hidden,
   .t456__mobile {
