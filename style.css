@@ -138,6 +138,8 @@ body {
 @media screen and (min-width: 641px) and (max-width: 980px) {
   .t456__mobile { display: none; }
   
+  .t456.t456__positionfixed { position: fixed; }
+  
   .t456 {
     display: block !important;
     height: 80px !important;
