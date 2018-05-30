@@ -125,8 +125,12 @@ body {
       .t456__burger span {
         background-color: #000;
       } 
-
+    
     .t456 {
+      transition: translate 1s ease;
+    }  
+    
+    .t456[style]="display: none;" {
       transform: translateY(-100%);
     }
   
