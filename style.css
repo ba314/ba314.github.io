@@ -118,10 +118,13 @@ body {
     .t456__mobile {
       position: relative;
       z-index: 100;
-      transition: box-shadow .2 ease;
+      transition: box-shadow .2s ease;
     }  
   
-    .t456_opened { box-shadow: 0 0 0 rgba(0, 0, 0, 0); }
+    .t456_opened { 
+      box-shadow: 0 0 0 rgba(0, 0, 0, 0); 
+      transition: none;
+    }
 
       .t456__mobile_text {
         color: #000;
