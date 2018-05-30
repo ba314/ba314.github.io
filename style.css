@@ -141,7 +141,13 @@ body {
   .t456 {
     display: block !important;
     height: 80px !important;
+    text-align: unset;
   }  
+  
+    .t456__leftwrapper, .t456__rightwrapper {
+      width: unset;
+      display: table-cell;
+    }  
   
     .t456__leftwrapper {
       padding: 0 0 0 40px;
@@ -156,9 +162,9 @@ body {
       padding: 0 40px 0 0;
     }  
   
-      .t456__list_item {
+      .t456 .t456__list_item {
         display: inline;
-        padding: 0 15px;
+        padding: 0 15px !important;
       }  
 }
   
