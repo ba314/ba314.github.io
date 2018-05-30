@@ -118,7 +118,7 @@ body {
     .t456__mobile {
       position: relative;
       z-index: 100;
-      transition: box-shadow .2s ease;
+      transition: box-shadow .6s ease;
     }  
   
     .t456_opened { 
