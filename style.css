@@ -109,29 +109,22 @@ body {
 } */
 
 @media screen and (max-width: 980px) {
-  /*.t456__mobile {
+  .t456__mobile {
     position: fixed;
     width: 100%;
-    height: 60px;
     background-color: rgba(255, 255, 255, .95);
     box-shadow: 0 0 16px rgba(0, 0, 0, .24);
-    transition: height .5s ease;
   }  
   
     .t456__mobile_text {
       color: #000;
     }
   
-  .t456_opened {
-    height: 217px;
-  }  
-  
   .t456.t456__hidden {
     position: fixed;
-    top: 60px;
-  }  */
+  } 
   
-  .t456.t456__hidden,
+  /*.t456.t456__hidden,
   .t456__mobile {
     position: fixed;
     background-color: rgba(255, 255, 255, .95);
@@ -162,7 +155,7 @@ body {
   
     .t456__rightwrapper {
       padding: 70px 0 20px;
-    }
+    }*/
   
   /*.t456__maincontainer {
     position: fixed;
