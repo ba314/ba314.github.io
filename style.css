@@ -130,11 +130,11 @@ body {
       transition: translate 1s ease;
     }  
     
-    .t456[style]|="display: none;" {
+    .t456[style]*="display: none;" {
       transform: translateY(-100%);
     }
   
-    .t456[style]|="display: block;" {
+    .t456[style]*="display: block;" {
       transform: translateY(0);
     }  
   
