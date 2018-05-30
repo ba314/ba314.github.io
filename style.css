@@ -103,7 +103,7 @@ body {
   box-shadow: 0 0 16px rgba(0, 0, 0, .24);
 } 
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 640px) {
   #rec51885586 {
     position: fixed;
     z-index: 100;
