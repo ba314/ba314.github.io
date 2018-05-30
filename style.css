@@ -126,7 +126,7 @@ body {
     height: 217px;
   }  
   
-  .t456 {
+  .t456.t456__hidden {
     position: fixed;
     top: 60px;
   }  
