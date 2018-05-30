@@ -109,7 +109,7 @@ body {
 } */
 
 @media screen and (max-width: 980px) {
-  .t456__mobile {
+  /*.t456__mobile {
     position: fixed;
     width: 100%;
     height: 60px;
@@ -129,9 +129,9 @@ body {
   .t456.t456__hidden {
     position: fixed;
     top: 60px;
-  }  
+  }  */
   
-  /*.t456.t456__hidden,
+  .t456.t456__hidden,
   .t456__mobile {
     position: fixed;
     background-color: rgba(255, 255, 255, .95);
@@ -162,7 +162,7 @@ body {
   
     .t456__rightwrapper {
       padding: 70px 0 20px;
-    }*/
+    }
   
   /*.t456__maincontainer {
     position: fixed;
