@@ -114,16 +114,24 @@ body {
   }
 }  
 
-.t456__mobile_container {
+/*.t456__mobile_container {
   box-shadow: 0 0 16px rgba(0, 0, 0, .24);
-}
+}*/
 
 @media screen and (max-width: 980px) {
+  .t456.t456__hidden,
   .t456__mobile {
     position: fixed;
+    background-color: rgba(255, 255, 255, .95);
+  }
+
+  .t456 {
+    z-index: 100;
+  }
+  
+  .t456__mobile {
     z-index: 110;
     width: 100%;
-    background-color: rgba(255, 255, 255, .95);
   }
   
   .t456,
@@ -134,14 +142,9 @@ body {
     .t456__mobile_text {
       color: #000;
     }
- 
-  .t456 {
-    position: fixed;
-    z-index: 110;
-  }
   
     .t456__rightwrapper {
-      padding: 80px 0 20px;
+      padding: 70px 0 20px;
     }
   
   /*.t456__maincontainer {
