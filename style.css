@@ -116,110 +116,36 @@ body {
     right: 0;
   }
   
-  .t456.t456__hidden,
-  .t456__mobile {
-    background-color: rgba(255, 255, 255, .95);
-    box-shadow: 0 0 16px rgba(0, 0, 0, .24);
-  }  
-  
-  .t456_opened { box-shadow: none; }
-    
-  
-  .t456__mobile {
-    position: relative;
-    z-index: 100;
-  }  
-  
-    .t456__mobile_text {
-      color: #000;
-    } 
-  
-  /*.t456.t456__hidden,
-  .t456__mobile {
-    position: fixed;
-    background-color: rgba(255, 255, 255, .95);
-  }
+    .t456.t456__hidden,
+    .t456__mobile {
+      background-color: rgba(255, 255, 255, .95);
+      box-shadow: 0 0 16px rgba(0, 0, 0, .24);
+    }  
 
-  .t456 {
-    z-index: 100;
-    -webkit-transition: none;
-    -moz-transition: none;
-    -o-transition: none;
-    -ms-transition: none;
-    transition: none;
-  }
-  
-  .t456__mobile {
-    z-index: 110;
-    width: 100%;
-  }
-  
-  .t456,
-  .t456__mobile:not(.t456_opened) {
-    box-shadow: 0 0 16px rgba(0, 0, 0, .24);
-  }
-  
-    .t456__mobile_text {
-      color: #000;
+    .t456_opened { box-shadow: none; }
+
+    .t456__mobile {
+      position: relative;
+      z-index: 100;
+    }  
+
+      .t456__mobile_text {
+        color: #000;
+      } 
+
+      .t456__burger span {
+        background-color: #000;
+      } 
+
+    .t456__leftwrapper {
+      display: none;
     }
-  
+
     .t456__rightwrapper {
-      padding: 70px 0 20px;
-    }*/
-  
-  /*.t456__maincontainer {
-    position: fixed;
-    z-index: 110;
-    width: 100%;
-    height: 100%;
-    background: #fff;
-  }*/
-  
-  .t456__burger span {
-    background-color: #000;
-  } 
-  
-  .t456__leftwrapper {
-    display: none;
-  }
+      padding: 10px 0 20px;
+    }
 }  
   
-/*@media screen and (max-width: 980px) {
-    .t456__maincontainer {
-      position: fixed;
-      top: 0;
-      left: 0;
-      display: block;
-      height: 100vh;
-      background-color: #fff;
-    }
-  
-      .t456__logo,
-      .t456 .t456__list_item {
-        text-align: left;
-      }
-  
-      .t456__logo {
-        font-size: 36px;
-
-      .t456 .t456__list_item {
-        padding: 10px 40px !important;
-        font-size: 24px;
-      }
-}
-
-[data-tilda-page-id="2717869"] .t116__videowrapper::before {
-  content: '';
-  position: absolute;
-  top: -21%;
-  left: 30%;
-  width: 100%;
-  height: 142%;
-  background: url("https://static.tildacdn.com/tild3865-3035-4537-a363-663634306233/Apple_iPhone_8_Space.png") no-repeat;
-  background-size: contain;
-  filter: drop-shadow(0 16px 24px rgba(34, 34, 34, .2));
-} */  
-
 #rec52536795,
 #rec43552872 {
   background: #F03434;
