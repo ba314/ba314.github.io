@@ -85,7 +85,7 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }  
 
-.t-tildalabel {display: none;}
+.t-tildalabel { display: none; }
 
 .t-title {
   font-weight: 900;
@@ -97,11 +97,7 @@ body {
   min-width: 180px;
 }
 
-#rec51885586 .t-menu__link-item,
-#rec51885586 .t-menu__link-item::after {
-  -webkit-transition: none;
-  transition: none;
-}
+#rec51885586 .t-menu__link-item::after { bottom: 0; }
 
 #rec51885586 .t-menu__link-item:not(.t-active):not(.tooltipstered):hover::after {
   bottom: -4px;
