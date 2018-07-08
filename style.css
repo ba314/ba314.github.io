@@ -97,6 +97,16 @@ body {
   min-width: 180px;
 }
 
+#rec51885586 .t-menu__link-item,
+#rec51885586 .t-menu__link-item::after {
+  -webkit-transition: none;
+  transition: none;
+}
+
+#rec51885586 .t-menu__link-item:not(.t-active):not(.tooltipstered):hover::after {
+  bottom: -4px;
+}
+
 .t456.t456__hidden,
 .t456__mobile {
   background-color: rgba(255, 255, 255, .95);
