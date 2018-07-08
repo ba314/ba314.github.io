@@ -97,9 +97,9 @@ body {
   min-width: 180px;
 }
 
-#rec51885586 .t-menu__link-item::after { bottom: 0; }
+#rec51885586 .t456 .t-menu__link-item::after { bottom: 0; }
 
-#rec51885586 .t-menu__link-item:not(.t-active):not(.tooltipstered):hover::after {
+#rec51885586 .t456 .t-menu__link-item:not(.t-active):not(.tooltipstered):hover::after {
   bottom: -4px;
 }
 
