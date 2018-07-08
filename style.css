@@ -256,11 +256,7 @@ body {
   .t480 .t-container {
     display: flex;
     flex-flow: column-reverse;
-  }
-  
-  .t480__top {
-    margin-top: 60px;
-  }  
+  } 
 }
 
 @media screen and (max-width: 640px) {
