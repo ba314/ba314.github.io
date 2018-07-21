@@ -310,33 +310,3 @@ body {
   filter: drop-shadow(0 4px 24px rgba(0, 0, 0, .24));
 }  
 
-#allrecords a {
-	-webkit-transition: color 0.3s ease-in-out, opacity 0.3s ease-in-out;
-  transition: color 0.3s ease-in-out, opacity 0.3s ease-in-out;	
-	position: relative;
-	}
-
-#allrecords a::after {
-  content: '';
-  position: absolute;
-  left: 0;
-  bottom: 20%;
-	opacity: 0;
-	width: 100%;
-	height: 100%;
-	border-bottom: 2px solid #22a7f0;
-  -webkit-box-shadow: inset 0px -1px 0px 0px #22a7f0;
-  -moz-box-shadow: inset 0px -1px 0px 0px #22a7f0;
-  box-shadow: inset 0px -1px 0px 0px #22a7f0;
-	-webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-}
-
-#allrecords a:hover{
-  color: #1e96d8 !important;  }
-
-#allrecords a:hover::after{
-	opacity: 1;
-	bottom: -2px;
-}
-
