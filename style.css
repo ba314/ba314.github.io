@@ -318,3 +318,14 @@ body {
   margin-bottom: 30px;
 }
 
+.t389__icon {
+  width: 0; 
+  height: 0; 
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid #121212;
+}  
+
+.t389__icon svg {
+  display: none;
+}  
