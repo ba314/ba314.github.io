@@ -326,11 +326,7 @@ body {
   display: none;
 }  
 
-@media screen and (max-width: 960px) {
-  .t490 .t-container:not(.t-section__container) {
-    max-width: 600px;
-  }
-  
+@media screen and (max-width: 960px) {  
   .t490 .t-section__topwrapper {
     margin-bottom: 105px;
   }
@@ -341,6 +337,14 @@ body {
     padding-right: 0;
     margin: 0 10px 0 10px;
     max-width: 180px;
+  }
+  
+  .t490__col:nth-child(3n+1) {
+    margin: 0 0 0 10px;
+  }
+  
+  .t490__col:nth-child(3n+3) {
+    margin: 0 10px 0 0;
   }
   
   .t490__separator {
