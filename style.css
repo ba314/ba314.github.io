@@ -339,11 +339,17 @@ body {
     max-width: 200px;
   }
   
-  .t490__col:nth-of-type(3n+1) {
+  .t490 .t-container:nth-child(1),
+  .t490 .t-container:nth-child(4),
+  .t490 .t-container:nth-child(8),
+  .t490 .t-container:nth-child(12) {
     margin: 0 0 45px 10px;
   }
   
-  .t490__col:nth-of-type(3n+3) {
+  .t490 .t-container:nth-child(3),
+  .t490 .t-container:nth-child(7),
+  .t490 .t-container:nth-child(11),
+  .t490 .t-container:nth-child(14) {
     margin: 0 10px 45px 0;
   }
   
