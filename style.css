@@ -339,11 +339,11 @@ body {
     max-width: 200px;
   }
   
-  .t-container .t490__col:nth-child(3n+1) {
+  .t490__col:nth-of-type(3n+1) {
     margin: 0 0 45px 10px;
   }
   
-  .t-container .t490__col:nth-child(3n+3) {
+  .t490__col:nth-of-type(3n+3) {
     margin: 0 10px 45px 0;
   }
   
