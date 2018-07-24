@@ -328,7 +328,7 @@ body {
 
 @media screen and (max-width: 960px) {  
   .t490 .t-container:not(.t-section__container) {
-    max-width: 680px;
+    max-width: 660px;
   }
   
   .t490 .t-section__topwrapper {
