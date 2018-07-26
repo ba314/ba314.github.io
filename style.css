@@ -425,11 +425,15 @@ body {
     flex: 1 1 33%;
     max-width: 50%;
   }  
+  
+  .t490__wrappercenter {
+    padding: 0;
+  }
 }
 
 @media screen and (max-width: 320px) {  
   .t490 .t-name {
-    font-size: 18px !important;
+    font-size: 21px !important;
   }
 }  
 
