@@ -406,21 +406,16 @@ body {
   display: none;
 }  
 
-@media screen and (max-width: 960px) {  
-  .t490 .t-container:not(.t-section__container) {
-    max-width: 660px;
-  }
-  
+@media screen and (max-width: 960px) {   
   .t490 .t-section__topwrapper {
     margin-bottom: 105px;
   }
   
   .t490__col {
     float: left;
-    padding-left: 0;
-    padding-right: 0;
-    margin: 0 10px 45px 10px;
-    max-width: 200px;
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 33.3%;
   }
   
   .t490__separator {
