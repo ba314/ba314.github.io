@@ -170,6 +170,8 @@ body {
 .t-text, .t-descr {
   -webkit-locale: "ru";
   -webkit-hyphens: auto;    
+  -webkit-hyphenate-limit-before: 4;
+  -webkit-hyphenate-limit-after: 4;
 }
 
 .t-title {
