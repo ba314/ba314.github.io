@@ -418,10 +418,6 @@ body {
     max-width: 33.3%;
   }
   
-  .t490__col:nth-child(8), .t490__col:nth-child(11) {
-    margin-bottom: 0;
-  }
-  
   .t490__separator {
     clear: none;
   }  
@@ -430,6 +426,10 @@ body {
 @media screen and (max-width: 640px) {  
   .t490__col {
     max-width: 50%;
+  }
+  
+  .t490__col:nth-child(8), .t490__col:nth-child(11) {
+    margin-bottom: 0;
   }
 }  
 
