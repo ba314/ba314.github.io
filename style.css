@@ -421,4 +421,10 @@ body {
   .t490__separator {
     clear: none;
   }  
+} 
+
+@media screen and (max-width: 640px) {  
+  .t490__col {
+    max-width: 50%;
+  }
 }  
