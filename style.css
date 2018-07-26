@@ -429,7 +429,7 @@ body {
 
 @media screen and (max-width: 320px) {  
   .t490 .t-name {
-    font-size: 18px;
+    font-size: 18px !important;
   }
 }  
 
