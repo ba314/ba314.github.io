@@ -167,6 +167,11 @@ body {
 
 .t-tildalabel { display: none; }
 
+.t-text, .t-descr {
+  -webkit-locale: "ru";
+  -webkit-hyphens: auto;    
+}
+
 .t-title {
   font-weight: 900;
 }  
@@ -422,6 +427,11 @@ body {
   }  
 }
 
+@media screen and (max-width: 320px) {  
+  .t490 .t-name {
+    font-size: 18px;
+  }
+}  
 
 
 .t572__text {
