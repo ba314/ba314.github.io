@@ -174,7 +174,8 @@ body {
   -webkit-hyphenate-limit-after: 4;
 }
 
-.t-title {
+.t-title,
+.t407__title {
   font-weight: 900;
 }  
 
