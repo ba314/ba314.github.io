@@ -440,13 +440,12 @@ body {
   }
 }  
 
-
 .t572__text {
   font-size: 18px;
   line-height: 1.55;
 }
 
-.t407__wrapper {
+/*.t407__wrapper {
   background-color: #121212;
 }  
 
@@ -458,7 +457,7 @@ body {
   opacity: 1;
 }  
 
-/*.t407__textwrapper {
+.t407__textwrapper {
     background-color: rgba(18, 18, 18, .25);
     transition: all ease-in-out 0.3s;
 }
