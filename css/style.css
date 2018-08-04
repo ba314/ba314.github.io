@@ -446,3 +446,25 @@ body {
   line-height: 1.55;
 }
 
+.t407__wrapper {
+  background-color: #121212;
+}  
+
+.t407__col {
+  opacity: .5;
+}  
+
+.t407__col:hover {
+  opacity: 1;
+}  
+
+/*.t407__textwrapper {
+    background-color: rgba(18, 18, 18, .25);
+    transition: all ease-in-out 0.3s;
+}
+
+.t407__textwrapper:hover {
+    background-color: rgba(18, 18, 18, 0);
+}*/
+
+
