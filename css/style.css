@@ -477,16 +477,15 @@ body {
       display: table-cell;
       padding: 2px 40px 0;
     }
+
+      .t389__col {
+        display: table-cell;
+        margin: 0;
+      } 
   
       .t389__col, .t389__copyright, .t389__scroll {
-        display: table-cell;
         width: 150px;
-        margin: 0;
-      }  
-  
-      .t389__col {
-        margin: 0;
-      }  
+      }   
   
         .t389__copyright {
           text-align: left;
