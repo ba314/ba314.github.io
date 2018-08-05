@@ -466,8 +466,8 @@ body {
     background-color: rgba(18, 18, 18, 0);
 }*/
 
-.t389 a:hover {
-  color: #fefefe;
+.t389__typo:hover {
+  color: #fefefe !important;
 }
 
 @media screen and (min-width: 641px) and (max-width: 980px) {
