@@ -470,7 +470,7 @@ body {
   .t389__maincontainer {
     display: table;
     padding: 0;
-    height: 80px;
+    height: 80px !important;
   }
   
     .t389__content {
@@ -490,7 +490,12 @@ body {
   
       .t389__col:last-child {
         text-align: right;
-      }   
+      }  
+  
+      .t389__col_center {
+        padding: 0 16px;
+        width: 100%;
+      }
   
       .t389__col_mobile {
         display: none;
