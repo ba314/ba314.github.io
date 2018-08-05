@@ -488,13 +488,13 @@ body {
         margin: 0;
       }  
   
-      .t389__col:first-child {
-        text-align: left;
-      }  
+        .t389__copyright {
+          text-align: left;
+        }  
   
-      .t389__col:last-child {
-        text-align: right;
-      }  
+        .t389 .t-align_right {
+          text-align: right;
+        }  
   
       .t389__col_center {
         padding: 0 16px;
