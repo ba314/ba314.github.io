@@ -533,4 +533,23 @@ body {
       .t389__col_mobile {
         display: none;
       } 
-}  
+}
+
+.t407__col:hover {
+  opacity: 1; 
+}
+
+  .t407__textwrapper::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #121212;
+    opacity: .3; 
+  }  
+
+  .t407__textwrapper:hover::after {
+    opacity: 0; 
+  }
