@@ -476,7 +476,7 @@ body {
   color: #fefefe !important;
 }
 
-.t389__typo::after {
+.t389__typo:not(.t389__copyright)::after {
   content: '';
   position: absolute;
   left: 0;
@@ -492,7 +492,7 @@ body {
   transition: all 0.3s ease;
 }
 
-.t389__typo:hover::after {
+.t389__typo:not(.t389__copyright):hover::after {
   opacity: 1;
   bottom: -4px;
 }
