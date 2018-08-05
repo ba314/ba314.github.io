@@ -535,7 +535,7 @@ body {
       } 
 }
 
-.t407__col:hover {
+/*.t407__col:hover {
   opacity: 1; 
 }
 
@@ -566,4 +566,4 @@ body {
   .t407__uptitle, .t407__title, .t407__descr {
     position: relative;
     z-index: 1; 
-  }
+  }*/
