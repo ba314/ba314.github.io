@@ -594,10 +594,10 @@ body {
 
   .t195__text a,
   .t572__text a,
-  .t795__descr a,
-  .t-sociallinks__svg path {
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
+  .t795__descr a {
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+    transition-property: color, border-bottom, box-shadow, -webkit-box-shadow, -moz-box-shadow;
   }  
   
   .t195__text a:hover,
@@ -619,6 +619,11 @@ body {
     -webkit-box-shadow: inset 0px -1px 0px 0px #22a7f0 !important;
     -moz-box-shadow: inset 0px -1px 0px 0px #121212 !important;
   }
+
+  .t-sociallinks__svg path {
+    -webkit-transition: fill 0.3s ease-in-out;
+    transition: fill 0.3s ease-in-out;
+  }  
 
   .t-sociallinks__svg:hover path {
     fill: #22a7f0 !important;
