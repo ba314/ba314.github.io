@@ -568,18 +568,23 @@ body {
     z-index: 1; 
   }*/
 
-  .t195__text a:hover {
+  .t195__text a:hover,
+  .t572 a:hover,
+  .t795__descr a:hover {
     color: #22a7f0 !important;
     border-bottom: 1px solid #22a7f0 !important;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }  
+
+  .t195__text a:hover {
     box-shadow: inset 0px -0px 0px 0px #22a7f0 !important;
     -webkit-box-shadow: inset 0px -0px 0px 0px #22a7f0 !important;
     -moz-box-shadow: inset 0px -0px 0px 0px #121212 !important;
   }  
 
   .t572 a:hover,
-  .t795__descr a:hover{
-    color: #22a7f0 !important;
-    border-bottom: 1px solid #22a7f0 !important;
+  .t795__descr a:hover {
     box-shadow: inset 0px -1px 0px 0px #22a7f0 !important;
     -webkit-box-shadow: inset 0px -1px 0px 0px #22a7f0 !important;
     -moz-box-shadow: inset 0px -1px 0px 0px #121212 !important;
