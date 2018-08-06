@@ -404,7 +404,8 @@ body {
 .t478__blockimg:hover,
 .t480__blockimg:hover,
 #rec62448915 img, 
-#rec62156052 img {
+#rec62156052 img,
+#rec62469597 img {
   filter: drop-shadow(0 4px 24px rgba(0, 0, 0, .24));
 }  
 
