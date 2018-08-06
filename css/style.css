@@ -245,7 +245,7 @@ body {
     transform: translateX(10px);
      opacity: 0;    
   
-  .t456__hidden[style=*block] .t456__list_item {
+  .t456__hidden[style*="block"] .t456__list_item {
      transform: translateX(0);
      opacity: 1;
     }  
