@@ -445,6 +445,12 @@ body {
   bottom: -4px;
 }
 
+@media screen and (max-width: 1200px) {
+  .t389__content {
+    padding: 2px 40px 0;
+  }
+}  
+
 @media screen and (min-width: 641px) and (max-width: 980px) {
   .t389__maincontainer {
     display: table;
@@ -454,7 +460,6 @@ body {
   
     .t389__content {
       display: table-cell;
-      padding: 2px 40px 0;
     }
 
       .t389__col {
@@ -481,6 +486,10 @@ body {
       .t389__col_mobile {
         display: none;
       } 
+  
+  .t407__textwrapper {
+    padding: 30px 40px;
+  }
 }
 
 
