@@ -496,6 +496,14 @@ body {
   .t389__col_hiddenmobile {
     display: block;
   }
+  
+    .t389__col, .t389__copyright, .t389__scroll {
+      text-align: left;
+    }
+    
+      .t389__list_item {
+        margin: 0 10px 0 0;
+      }
 }
 
 
