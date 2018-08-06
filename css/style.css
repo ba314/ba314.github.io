@@ -201,7 +201,7 @@ body {
 
 .t456__rightwrapper { padding-right: 40px !important; }
 
-/*@media screen and (max-width: 640px) {
+@media screen and (max-width: 640px) {
   #rec51885586 {
     position: fixed;
     z-index: 100;
@@ -235,7 +235,7 @@ body {
     .t456__rightwrapper {
       padding: 10px 0 20px;
     }
-} */ 
+}
 
 @media screen and (min-width: 641px) and (max-width: 980px) {
   .t456__mobile { display: none; }
