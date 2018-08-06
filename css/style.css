@@ -567,3 +567,20 @@ body {
     position: relative;
     z-index: 1; 
   }*/
+
+  .t195__text a:hover {
+    color: #22a7f0 !important;
+    border-bottom: 1px solid #22a7f0 !important;
+    box-shadow: inset 0px -0px 0px 0px #22a7f0 !important;
+    -webkit-box-shadow: inset 0px -0px 0px 0px #22a7f0 !important;
+    -moz-box-shadow: inset 0px -0px 0px 0px #121212 !important;
+  }  
+
+  .t572 a:hover,
+  .t795__descr a:hover{
+    color: #22a7f0 !important;
+    border-bottom: 1px solid #22a7f0 !important;
+    box-shadow: inset 0px -1px 0px 0px #22a7f0 !important;
+    -webkit-box-shadow: inset 0px -1px 0px 0px #22a7f0 !important;
+    -moz-box-shadow: inset 0px -1px 0px 0px #121212 !important;
+  }
