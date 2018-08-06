@@ -571,7 +571,7 @@ body {
   .t195__text a,
   .t572__text a,
   .t795__descr a,
-  .t-sociallinks__svg:hover path {
+  .t-sociallinks__svg path {
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
   }  
@@ -596,7 +596,7 @@ body {
     -moz-box-shadow: inset 0px -1px 0px 0px #121212 !important;
   }
 
-  .t-sociallinks__svg path {
+  .t-sociallinks__svg:hover path {
     fill: #22a7f0 !important;
   }  
 
