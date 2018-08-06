@@ -595,7 +595,7 @@ body {
     -moz-box-shadow: inset 0px -1px 0px 0px #121212 !important;
   }
 
-  .t-sociallinks__svg path {
+  .t-sociallinks__svg:hover path {
     fill: #22a7f0 !important;
   }  
 
