@@ -422,7 +422,7 @@ body {
   display: none;
 }  
 
-.t389__typo,
+.t389__typo:not(.t389__copyright),
 .t389__typo a {
   -webkit-transition: color 0.3s ease-in-out, opacity 0.3s ease-in-out;
   transition: color 0.3s ease-in-out, opacity 0.3s ease-in-out;
@@ -433,12 +433,12 @@ body {
   color: #b1b1b1 !important;
 }  
 
-.t389__typo:hover,
+.t389__typo:not(.t389__copyright):hover,
 .t389__typo:hover a {
   color: #fefefe !important;
 }
 
-.t389__typo::after,
+.t389__typo:not(.t389__copyright)::after,
 .t389__typo a::after {
   content: '';
   position: absolute;
@@ -455,7 +455,7 @@ body {
   transition: all 0.3s ease;
 }
 
-.t389__typo:hover::after,
+.t389__typo:not(.t389__copyright):hover::after,
 .t389__typo:hover a::after {
   opacity: 1;
   bottom: -4px;
