@@ -243,12 +243,13 @@ body {
   .t456__list_item {
     transition: all .3s ease-in-out; 
     transform: translateX(10px);
-     opacity: 0;    
+    opacity: 0;
+  }
   
   .t456__hidden[style*="block"] .t456__list_item {
-     transform: translateX(0);
-     opacity: 1;
-    }  
+    transform: translateX(0);
+    opacity: 1;
+  }  
 }
 
 @media screen and (min-width: 641px) and (max-width: 980px) {
