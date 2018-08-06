@@ -194,8 +194,14 @@ body {
 .t456__mobile {
   background-color: rgba(254, 254, 254, .95);
   box-shadow: 0 0 16px rgba(0, 0, 0, .24);
-}   
+} 
+
 @media screen and (min-width: 641px) {
+  .t456__hidden {
+    background-color: rgba(254, 254, 254, .95);
+    box-shadow: 0 0 16px rgba(0, 0, 0, .24);
+  } 
+  
   .t456__leftwrapper { padding-left: 40px !important; }
 
   .t456__rightwrapper { padding-right: 40px !important; }
