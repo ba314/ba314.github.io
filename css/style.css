@@ -290,12 +290,11 @@ body {
 
 @media screen and (max-width: 320px) {
   .t456__rightwrapper {
-    padding: 10px;
+    padding: 10px 16px;
   }
   
     .t456 .t456__list_item {
-      padding: 10px 5px !important;
-      font-size: 15px;
+      padding: 10px 4px !important;
     } 
 }  
   
