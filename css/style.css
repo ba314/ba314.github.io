@@ -449,9 +449,13 @@ body {
   .t389__content {
     padding: 2px 40px 0;
   }
+  
+      .t389__col_mobile {
+        display: none;
+      } 
 }  
 
-@media screen and (min-width: 641px) and (max-width: 980px) {
+@media screen and (min-width: 641px) and (max-width: 960px) {
   .t389__maincontainer {
     display: table;
     padding: 0;
@@ -483,12 +487,14 @@ body {
         width: 100%;
       }
   
-      .t389__col_mobile {
-        display: none;
-      } 
-  
   .t407__textwrapper {
     padding: 30px 40px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .t389__col_hiddenmobile {
+    display: block;
   }
 }
 
