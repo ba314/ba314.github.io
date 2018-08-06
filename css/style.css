@@ -212,25 +212,19 @@ body {
     .t456__mobile {
       position: relative;
       z-index: 100;
-      transition: box-shadow .6s ease;
     }  
-  
-    .t456_opened { 
-      box-shadow: 0 0 0 rgba(0, 0, 0, 0); 
-      transition: none;
-    }
 
       .t456__mobile_text {
         color: #000;
         transition: all .3s ease-in-out;
+        transform: translateX(0);
+        opacity: 1;
       } 
   
-      /*.t456__mobile_text {
-      color: #000;
-      transition: all .3s ease-in-out;
-      transform: translateX(-100%);
-      opacity: 0;
-      }*/
+      .t456_opened .t456__mobile_text {
+        transform: translateX(-100%);
+        opacity: 0;
+      }
 
       .t456__burger span {
         background-color: #000;
