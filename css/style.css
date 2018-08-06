@@ -191,11 +191,14 @@ body {
   bottom: -4px;
 }
 
-.t456.t456__hidden,
 .t456__mobile {
   background-color: rgba(254, 254, 254, .95);
   box-shadow: 0 0 16px rgba(0, 0, 0, .24);
 } 
+
+.t456__hidden {
+  position: fixed;
+}  
 
 .t456__leftwrapper { padding-left: 40px !important; }
 
