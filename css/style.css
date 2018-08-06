@@ -568,13 +568,18 @@ body {
     z-index: 1; 
   }*/
 
+  .t195__text a,
+  .t572 a,
+  .t795__descr a {
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }  
+  
   .t195__text a:hover,
   .t572 a:hover,
   .t795__descr a:hover {
     color: #22a7f0 !important;
     border-bottom: 1px solid #22a7f0 !important;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
   }  
 
   .t195__text a:hover {
