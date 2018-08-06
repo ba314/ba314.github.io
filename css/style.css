@@ -242,6 +242,9 @@ body {
   
   .t456__list_item {
     transition: all .3s ease-in-out; 
+  }
+  
+  .t456__hidden[style*="none"] .t456__list_item { 
     transform: translateX(10px);
     opacity: 0;
   }
