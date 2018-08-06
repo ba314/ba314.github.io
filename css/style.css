@@ -215,13 +215,11 @@ body {
 
       .t456__mobile_text {
         color: #000;
-        transition: transform .3s ease-in-out, opacity .15s ease-in-out;
-        transform: translateX(0);
+        transition: opacity .2s ease-in-out;
         opacity: 1;
       } 
   
       .t456_opened .t456__mobile_text {
-        transform: translateX(-10px);
         opacity: 0;
       }
 
