@@ -349,12 +349,16 @@ body {
   transition-timing-function: cubic-bezier(.19, 1, .22, 1), cubic-bezier(.19, 1, .22, 1), cubic-bezier(.25,.1,.25,1);
 }
 
-.t-btn {
+#allrecords .t-btn:not(.t-animate_no-hover) {
   transform: translateY(0);
-  transition-property: background-color, color, border, transform, box-shadow !important;
-  transition-duration: .3s !important;
-  transition-timing-function: cubic-bezier(.25, .1, .25, 1) !important;
+  -webkit-transition: background-color .3s cubic-bezier(.25, .1, .25, 1), color .3s cubic-bezier(.25, .1, .25, 1), border-color .3s cubic-bezier(.25, .1, .25, 1), box-shadow .3s cubic-bezier(.25, .1, .25, 1), transform .3s cubic-bezier(.25, .1, .25, 1) !important;
+  transition: background-color .3s cubic-bezier(.25, .1, .25, 1), color .3s cubic-bezier(.25, .1, .25, 1), border-color .3s cubic-bezier(.25, .1, .25, 1), box-shadow .3s cubic-bezier(.25, .1, .25, 1), transform .3s cubic-bezier(.25, .1, .25, 1) !important;
 }
+
+#allrecords .t-btn:not(.t-animate_no-hover):hover {
+  background-color: transparent !important;
+  background-color: rgba(0, 0, 0, 0) !important;
+}  
 
 .t195__imgsection {
   transition-property: transform;
