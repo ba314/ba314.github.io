@@ -247,11 +247,12 @@ body {
 
       .t456__mobile_text {
         color: #000;
-        transition: opacity .2s ease-in-out;
+        transition: opacity .2s ease-in-out .1s;
         opacity: 1;
       } 
   
       .t456_opened .t456__mobile_text {
+        transition: opacity .2s ease-in-out;
         opacity: 0;
       }
 
