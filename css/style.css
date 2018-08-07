@@ -350,7 +350,10 @@ body {
 }
 
 .t-btn {
-  transition-property: transform, box-shadow;
+  transform: translateY(0);
+  transition-property: background-color, color, border, transform, box-shadow !important;
+  transition-duration: .3s !important;
+  transition-timing-function: cubic-bezier(.25, .1, .25, 1) !important;
 }
 
 .t195__imgsection {
@@ -413,7 +416,6 @@ body {
   min-height: 120px;
 }
 
-.t-btn,
 .t195__imgsection,
 .t478__blockimg,
 .t480__blockimg {
