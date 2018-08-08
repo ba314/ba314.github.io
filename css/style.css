@@ -299,7 +299,6 @@ body {
     } 
 }  
   
-#rec52536795,
 #rec43552872 {
   background: #F03434;
   background: -moz-radial-gradient(ellipse at 0 0, #F03434, #F2784B);
@@ -307,32 +306,27 @@ body {
   background: radial-gradient(ellipse at 0 0, #F03434, #F2784B);
 } 
 
-#rec43553766,
-#rec53690994,
-#rec53369849 {
+#rec53690994 {
   background: #0a0a0a;
   background: -moz-radial-gradient(ellipse at 0 0, #0a0a0a, #333);
   background: -webkit-radial-gradient(ellipse at 0 0, #0a0a0a, #333);
   background: radial-gradient(ellipse at 0 0, #0a0a0a, #333);
 }
 
-#rec44612090,
-#rec53370971 {
+#rec44612090 {
   background: #2C3E50;
   background: -moz-radial-gradient(ellipse at 0 0, #2C3E50, #67809F);
   background: -webkit-radial-gradient(ellipse at 0 0, #2C3E50, #67809F);
   background: radial-gradient(ellipse at 0 0, #2C3E50, #67809F);
 }
 
-#rec49615234,
-#rec54137860 {
+#rec49615234 {
   background: #6C7A89;
   background: -moz-radial-gradient(ellipse at 0 0, #6C7A89, #BDC3C7);
   background: -webkit-radial-gradient(ellipse at 0 0, #6C7A89, #BDC3C7);
   background: radial-gradient(ellipse at 0 0, #6C7A89, #BDC3C7);
 }
 
-#rec50313123,
 #rec53690996 {
   background: #F2784B;
   background: -moz-radial-gradient(ellipse at 0 0, #F2784B, #F4B350);
