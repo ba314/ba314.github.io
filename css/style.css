@@ -298,6 +298,19 @@ body {
       padding: 10px 3px !important;
     } 
 }  
+
+.t171 {
+  position: fixed !important;
+  padding: 20px;
+  min-height: 0 !important; 
+  text-align: left;
+}
+
+  .t171__title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.35;
+  }
   
 #rec43552872 {
   background: #F03434;
