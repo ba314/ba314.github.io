@@ -349,16 +349,9 @@ body {
   transition-timing-function: cubic-bezier(.19, 1, .22, 1), cubic-bezier(.19, 1, .22, 1), cubic-bezier(.25,.1,.25,1);
 }
 
-#allrecords .r .t-btn:not(.t-animate_no-hover) {
-  transform: translateY(0);
-  -webkit-transition: background-color .3s cubic-bezier(.25, .1, .25, 1), color .3s cubic-bezier(.25, .1, .25, 1), border-color .3s cubic-bezier(.25, .1, .25, 1), box-shadow .3s cubic-bezier(.25, .1, .25, 1), transform .3s cubic-bezier(.25, .1, .25, 1);
-  transition: background-color .3s cubic-bezier(.25, .1, .25, 1), color .3s cubic-bezier(.25, .1, .25, 1), border-color .3s cubic-bezier(.25, .1, .25, 1), box-shadow .3s cubic-bezier(.25, .1, .25, 1), transform .3s cubic-bezier(.25, .1, .25, 1);
+.t-btn {
+  transition-property: transform, box-shadow;
 }
-
-#allrecords .r .t-btn:not(.t-animate_no-hover):hover {
-  background-color: transparent !important;
-  background-color: rgba(0, 0, 0, 0) !important;
-}  
 
 .t195__imgsection {
   transition-property: transform;
@@ -371,12 +364,12 @@ body {
   padding-top: 0;
 }
 
-#allrecords .r .t-btn:not(.t-animate_no-hover),
+.t-btn,
 .t195__img {
   box-shadow: 0 0 16px rgba(0, 0, 0, .12);
 }
 
-#allrecords .r .t-btn:not(.t-animate_no-hover):hover,
+.t-btn:hover,
 .t195__img:hover {
   box-shadow: 0 4px 24px rgba(0, 0, 0, .24);
 }
@@ -420,6 +413,7 @@ body {
   min-height: 120px;
 }
 
+.t-btn,
 .t195__imgsection,
 .t478__blockimg,
 .t480__blockimg {
@@ -428,7 +422,7 @@ body {
   transition-timing-function: cubic-bezier(.25, .1, .25, 1);
 }
 
-#allrecords .r .t-btn:not(.t-animate_no-hover):hover,
+.t-btn:hover,
 .t195__imgsection:hover,
 .t478__blockimg:hover,
 .t480__blockimg:hover {
@@ -598,32 +592,25 @@ body {
 /*.t407__wrapper {
   background-color: #121212;
 }  
-
 .t407__col {
   opacity: .5;
 }  
-
 .t407__col:hover {
   opacity: 1;
 }  
-
 .t407__textwrapper {
     background-color: rgba(18, 18, 18, .25);
     transition: all ease-in-out 0.3s;
 }
-
 .t407__textwrapper:hover {
     background-color: rgba(18, 18, 18, 0);
 }
-
 .t407__col:hover {
   opacity: 1; 
 }
-
   .t407__textwrapper {
     position: relative;
   }  
-
     .t407__textwrapper::after {
       content: '';
       position: absolute;
@@ -639,11 +626,9 @@ body {
       transition: all ease-in-out 0.3s;
       opacity: .1; 
     }  
-
     .t407__textwrapper:hover::after {
       opacity: 0; 
     }
-
   .t407__uptitle, .t407__title, .t407__descr {
     position: relative;
     z-index: 1; 
@@ -685,5 +670,4 @@ body {
   .t-sociallinks__svg:hover path {
     fill: #22a7f0 !important;
   }  
-
 
