@@ -301,12 +301,16 @@ body {
 
 .t171 {
   position: fixed !important;
+  top: inherit !important;
+  right: inherit !important;
+  left: inherit !important;
   padding: 20px;
   min-height: 0 !important; 
   text-align: left;
 }
 
   .t171__title {
+    display: inline-block;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.35;
