@@ -247,12 +247,13 @@ body {
 
       .t456__mobile_text {
         color: #000;
-        transition: opacity .3s ease-in-out, translate .3s ease-in-out;
+        transition: all .3s ease-in-out;
         transform: translateX(0);
         opacity: 1;
       } 
   
       .t456_opened .t456__mobile_text {
+        transition: all .3s ease-in-out;
         transform: translateX(-10px);
         opacity: 0;
       }
@@ -278,6 +279,7 @@ body {
   }
   
   .t456_opened + .t456.t456__positionfixed {
+    transition: opacity .3s ease-in-out;
     opacity: 1 !important;
     visibility: visible;
   }
@@ -301,6 +303,7 @@ body {
         } 
   
         .t456_opened + .t456.t456__positionfixed .t456__list_item {
+          transition: translate .3s ease-in-out;
           transform: translateX(0);
         }  
 }
