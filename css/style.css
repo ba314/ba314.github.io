@@ -247,13 +247,12 @@ body {
 
       .t456__mobile_text {
         color: #000;
-        transition: opacity .2s ease-in-out .1s, translate .3s ease-in-out;
+        transition: opacity .3s ease-in-out, translate .3s ease-in-out;
         transform: translateX(0);
         opacity: 1;
       } 
   
       .t456_opened .t456__mobile_text {
-        transition: opacity .2s ease-in-out, translate .3s ease-in-out;
         transform: translateX(-10px);
         opacity: 0;
       }
@@ -279,7 +278,6 @@ body {
   }
   
   .t456_opened + .t456.t456__positionfixed {
-    transition: opacity .3s ease-in-out .2s;
     opacity: 1 !important;
     visibility: visible;
   }
