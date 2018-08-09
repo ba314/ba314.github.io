@@ -271,6 +271,12 @@ body {
   .t456.t456__positionfixed {
     position: fixed;
     display: block !important;
+    transition: opacity .3s ease-in-out;
+    opacity: 0;
+  }
+  
+  .t456_opened + .t456.t456__positionfixed {
+    opacity: 1;
   }
   
     .t456__maincontainer {
