@@ -678,12 +678,16 @@ body {
     -moz-box-shadow: inset 0px -1px 0px 0px #121212 !important;
   }
 
-  .t-sociallinks__item a svg path {
+  .t-sociallinks__svg {
+    fill: currentColor;
+  }      
+
+  .t-sociallinks__item a {
     -webkit-transition: fill 0.3s ease-in-out;
     transition: fill 0.3s ease-in-out;
   }  
 
-  .t-sociallinks__item a:hover svg path, .t-sociallinks__item a:active svg path {
-    fill: #22a7f0 !important;
+  #allrecords .t-sociallinks__item a:hover, #allrecords .t-sociallinks__item a:active {
+    color: #22a7f0;
   }  
 
