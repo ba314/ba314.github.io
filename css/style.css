@@ -277,6 +277,7 @@ body {
   }
   
   .t456_opened + .t456.t456__positionfixed {
+    transition: opacity .3s ease-in-out .2s;
     opacity: 1 !important;
     visibility: visible;
   }
