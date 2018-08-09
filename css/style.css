@@ -275,13 +275,13 @@ body {
     display: block !important;
     transition: opacity .3s ease-in-out;
     opacity: 0 !important;
-    visibility: hidden;
+    pointer-events: none;
   }
   
   .t456_opened + .t456.t456__positionfixed {
     transition: opacity .3s ease-in-out;
     opacity: 1 !important;
-    visibility: visible;
+    pointer-events: auto;
   }
   
     .t456__maincontainer {
