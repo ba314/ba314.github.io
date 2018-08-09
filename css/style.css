@@ -690,13 +690,16 @@ body {
     }
   }
 
-  .t-sociallinks__item svg {
-    fill: rgba(18, 18, 18, 1);
-    -webkit-transition: fill 0.3s ease-in-out;
-    transition: fill 0.3s ease-in-out;
+  .t-sociallinks__svg {
+    fill: currentColor;
+  }      
+
+  .t-sociallinks__item a {
+    -webkit-transition: color 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out;
   }  
 
-  .t-sociallinks__item svg:hover, .t-sociallinks__item svg:active {
-    fill: rgba(34, 167, 240, 1);
+  #allrecords .t-sociallinks__item a:hover, #allrecords .t-sociallinks__item a:active {
+    color: #22a7f0;
   }  
 
