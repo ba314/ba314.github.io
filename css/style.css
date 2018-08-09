@@ -678,16 +678,25 @@ body {
     -moz-box-shadow: inset 0px -1px 0px 0px #121212 !important;
   }
 
-  .t-sociallinks__svg {
-    fill: currentColor;
-  }      
+  @media screen and (max-width: 640px) {
+    .t572__text {
+      font-size: 24px;
+    }
+  }
 
-  .t-sociallinks__item a {
+  @media screen and (max-width: 320px) {
+    .t572__text {
+      font-size: 20px;
+    }
+  }
+
+  .t-sociallinks__svg {
+    fill: rgba(18, 18, 18, 1);
     -webkit-transition: fill 0.3s ease-in-out;
     transition: fill 0.3s ease-in-out;
   }  
 
-  #allrecords .t-sociallinks__item a:hover, #allrecords .t-sociallinks__item a:active {
-    color: #22a7f0;
+  a:hover .t-sociallinks__svg, a:active .t-sociallinks__svg {
+    fill: rgba(34, 167, 240, 1);
   }  
 
