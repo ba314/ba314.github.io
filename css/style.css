@@ -247,12 +247,14 @@ body {
 
       .t456__mobile_text {
         color: #000;
-        transition: opacity .2s ease-in-out .1s;
+        transition: opacity .2s ease-in-out .1s, translate .3s ease-in-out;
+        transform: translateX(0);
         opacity: 1;
       } 
   
       .t456_opened .t456__mobile_text {
-        transition: opacity .2s ease-in-out;
+        transition: opacity .2s ease-in-out, translate .3s ease-in-out;
+        transform: translateX(-10px);
         opacity: 0;
       }
 
@@ -296,7 +298,13 @@ body {
           display: inline-block;
           line-height: 21px;
           text-align: left;
+          transition: translate .3s ease-in-out;
+          transform: translateX(-10px);
         } 
+  
+        .t456_opened + .t456.t456__positionfixed .t456__list_item {
+          transform: translateX(0);
+        }  
 }
 
 @media screen and (max-width: 320px) {
