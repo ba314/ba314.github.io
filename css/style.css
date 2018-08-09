@@ -658,32 +658,32 @@ body {
     transition-property: color, border-bottom, box-shadow, -webkit-box-shadow, -moz-box-shadow;
   }  
   
-  .t195__text a:hover,
-  .t572__text a:hover,
-  .t795__descr a:hover {
+  .t195__text a:hover, .t195__text a:active,
+  .t572__text a:hover, .t572__text a:active,
+  .t795__descr a:hover, t795__descr a:active {
     color: #22a7f0 !important;
     border-bottom: 1px solid #22a7f0 !important;
   }  
 
-  .t195__text a:hover {
+  .t195__text a:hover, .t195__text a:active {
     box-shadow: inset 0px -0px 0px 0px #22a7f0 !important;
     -webkit-box-shadow: inset 0px -0px 0px 0px #22a7f0 !important;
     -moz-box-shadow: inset 0px -0px 0px 0px #121212 !important;
   }  
 
-  .t572__text a:hover,
-  .t795__descr a:hover {
+  .t572__text a:hover, .t572__text a:active, 
+  .t795__descr a:hover, .t795__descr a:active {
     box-shadow: inset 0px -1px 0px 0px #22a7f0 !important;
     -webkit-box-shadow: inset 0px -1px 0px 0px #22a7f0 !important;
     -moz-box-shadow: inset 0px -1px 0px 0px #121212 !important;
   }
 
-  .t-sociallinks__svg path {
+  .t-sociallinks__item a + svg path {
     -webkit-transition: fill 0.3s ease-in-out;
     transition: fill 0.3s ease-in-out;
   }  
 
-  .t-sociallinks__svg:hover path {
+  .t-sociallinks__item a:hover + svg path, .t-sociallinks__item a:active + svg path {
     fill: #22a7f0 !important;
   }  
 
