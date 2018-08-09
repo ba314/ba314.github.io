@@ -270,6 +270,7 @@ body {
   
   .t456.t456__positionfixed {
     position: fixed;
+    display: block !important;
   }
   
     .t456__maincontainer {
@@ -299,7 +300,7 @@ body {
     } 
 }  
 
-.t171 {
+/*.t171 {
   position: fixed !important;
   top: inherit !important;
   right: inherit !important;
@@ -314,7 +315,7 @@ body {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.35;
-  }
+  }*/
   
 #rec43552872 {
   background: #F03434;
