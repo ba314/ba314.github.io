@@ -690,13 +690,13 @@ body {
     }
   }
 
-  .t-sociallinks__svg {
+  .t-sociallinks__item svg {
     fill: rgba(18, 18, 18, 1);
     -webkit-transition: fill 0.3s ease-in-out;
     transition: fill 0.3s ease-in-out;
   }  
 
-  .t-sociallinks__svg:hover, .t-sociallinks__svg:active {
+  .t-sociallinks__item svg:hover, .t-sociallinks__item svg:active {
     fill: rgba(34, 167, 240, 1);
   }  
 
