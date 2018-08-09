@@ -696,7 +696,7 @@ body {
     transition: fill 0.3s ease-in-out;
   }  
 
-  a:hover .t-sociallinks__svg, a:active .t-sociallinks__svg {
+  .t-sociallinks__svg:hover, .t-sociallinks__svg:active {
     fill: rgba(34, 167, 240, 1);
   }  
 
