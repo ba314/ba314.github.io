@@ -273,10 +273,12 @@ body {
     display: block !important;
     transition: opacity .3s ease-in-out;
     opacity: 0 !important;
+    visibility: hidden;
   }
   
   .t456_opened + .t456.t456__positionfixed {
     opacity: 1 !important;
+    visibility: visible;
   }
   
     .t456__maincontainer {
@@ -305,23 +307,6 @@ body {
       padding: 10px 3px !important;
     } 
 }  
-
-/*.t171 {
-  position: fixed !important;
-  top: inherit !important;
-  right: inherit !important;
-  left: inherit !important;
-  padding: 20px;
-  min-height: 0 !important; 
-  text-align: left;
-}
-
-  .t171__title {
-    display: inline-block;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.35;
-  }*/
   
 #rec43552872 {
   background: #F03434;
