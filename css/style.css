@@ -294,6 +294,7 @@ body {
             .t456_opened + .t456 .t456__logo {
               /* transition-delay: 0;
               transform: translateX(-10px); */
+              transition: opacity 3s. ease-in-out;
               opacity: 0;
               visibility: hidden;
             }  
@@ -303,14 +304,14 @@ body {
           box-sizing: border-box;
         }
   
-          .t456__list {
+          /* .t456__list {
             transition: opacity 0;
             opacity: 0;
           }  
   
           .t456_opened + .t456 .t456__list {
             opacity: 1;
-          }  
+          } */
             
             .t456 .t456__list_item {
               display: inline-block;
@@ -327,6 +328,7 @@ body {
             .t456_opened + .t456 .t456__list_item {
               /* transition-delay: .15s;
               transform: translateX(0); */
+              transition: opacity 3s. ease-in-out;
               opacity: 1;
               visibility: visible;
             }  
