@@ -220,9 +220,8 @@ body {
   
   .t456.t456__positionfixed { position: fixed; }
   
-  .t456.t456__hidden {
-    display: block;
-    height: 80px;
+  .t456 {
+    display: block  !important;
     text-align: inherit;
   }  
   
