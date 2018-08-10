@@ -210,9 +210,9 @@ body {
     box-shadow: 0 0 16px rgba(0, 0, 0, .24);
   } 
   
-  .t456__leftwrapper { padding-left: 40px !important; }
+  .t456__leftwrapper { padding-left: 40px; }
 
-  .t456__rightwrapper { padding-right: 40px !important; }
+  .t456__rightwrapper { padding-right: 40px; }
 }
 
 @media screen and (min-width: 641px) and (max-width: 980px) {
@@ -220,16 +220,15 @@ body {
   
   .t456.t456__positionfixed { position: fixed; }
   
-  .t456 {
-    display: block !important;
-    height: 80px !important;
-    text-align: unset;
+  .t456.t456__hidden {
+    display: block;
+    height: 80px;
+    text-align: inherit;
   }  
   
     .t456__leftwrapper, .t456__rightwrapper {
       display: table-cell;
       width: auto;
-      padding: 0;
     }    
       .t456__logo {
         margin: 0;
@@ -284,18 +283,18 @@ body {
             margin: 0;
             font-size: 16px;
             line-height: 1.35;
-            transition-property: opacity, transform, visibility;
+            /* transition-property: opacity, transform, visibility;
             transition-duration: .3s;
             transition-timing-function: ease-in-out;
             transition-delay: .15s;        
-            transform: translateX(0);
+            transform: translateX(0); */
             opacity: 1;
             visibility: visible;
           }
 
             .t456_opened + .t456 .t456__logo {
-              transition-delay: 0;
-              transform: translateX(-10px);
+              /* transition-delay: 0;
+              transform: translateX(-10px); */
               opacity: 0;
               visibility: hidden;
             }  
@@ -317,18 +316,18 @@ body {
             .t456 .t456__list_item {
               display: inline-block;
               line-height: 21px;
-              transition-property: opacity, transform, visibility;
+              /* transition-property: opacity, transform, visibility;
               transition-duration: .3s;
               transition-timing-function: ease-in-out;
               transition-delay: 0;
-              transform: translateX(10px);
+              transform: translateX(10px); */
               opacity: 0;
               visibility: hidden;
             } 
 
             .t456_opened + .t456 .t456__list_item {
-              transition-delay: .15s;
-              transform: translateX(0);
+              /* transition-delay: .15s;
+              transform: translateX(0); */
               opacity: 1;
               visibility: visible;
             }  
