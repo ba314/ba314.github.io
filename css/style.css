@@ -193,12 +193,6 @@ body {
 
 /* Header */
 
-#rec51885586 .t456 .t-menu__link-item::after { bottom: 0; }
-
-#rec51885586 .t456 .t-menu__link-item:not(.t-active):not(.tooltipstered):hover::after {
-  bottom: -4px;
-}
-
 .t456__mobile {
   background-color: rgba(254, 254, 254, .95);
   box-shadow: 0 0 16px rgba(0, 0, 0, .24);
@@ -229,6 +223,7 @@ body {
       display: table-cell;
       width: auto;
     }    
+  
       .t456__logo {
         margin: 0;
       }  
@@ -238,8 +233,8 @@ body {
         padding: 0 15px !important;
       }  
   
-      .t456__list_item:last-child {
-        padding-right: 0;
+      .t456  .t456__list_item:last-child {
+        padding-right: 0 !important;
       }
 }
 
@@ -333,6 +328,17 @@ body {
       letter-spacing: -.1px
     } 
 }  
+
+#rec51885586 .t-menu__link-item::after { 
+  bottom: 0; 
+}
+
+#rec51885586 .t-menu__link-item:not(.t-active):not(.tooltipstered):hover::after {
+  bottom: -4px;
+}
+
+
+/* Projects */
   
 #rec43552872 {
   background: #F03434;
