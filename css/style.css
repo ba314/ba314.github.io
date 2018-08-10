@@ -241,7 +241,8 @@ body {
     right: 0;
   } 
     
-    .t456 {
+    .t456,
+    .t456__rightwrapper {
       text-align: left;
     }
   
@@ -282,7 +283,7 @@ body {
   
         .t456__rightwrapper {
           padding: 10px;
-          width:  auto;
+          box-sizing: border-box;
         }
 
           .t456 .t456__list_item {
