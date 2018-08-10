@@ -308,10 +308,6 @@ body {
           }  
 }
 
-@keyframes fadein {
-  0% { visibility: hidden }
-  
-
 @media screen and (max-width: 320px) {
   .t456__rightwrapper {
     padding: 10px 16px;
