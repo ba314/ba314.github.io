@@ -272,7 +272,7 @@ body {
             margin: 0;
             font-size: 16px;
             line-height: 1.35;
-            transition: all .3s ease-in-out 1.5s;
+            transition: all .3s ease-in-out .15s;
             transform: translateX(0);
             opacity: 1;
           }
@@ -298,7 +298,7 @@ body {
           } 
 
           .t456_opened + .t456.t456__positionfixed .t456__list_item {
-            transition: all .3s ease-in-out 1.5s;
+            transition: all .3s ease-in-out .15s;
             transform: translateX(0);
             opacity: 1;
             pointer-events: auto;
