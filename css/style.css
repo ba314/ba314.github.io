@@ -257,6 +257,7 @@ body {
     .t456.t456__positionfixed {
       position: fixed;
       display: block !important;
+      opacity: 1 !important;
     }
 
       .t456__maincontainer {
@@ -290,7 +291,7 @@ body {
             display: inline-block;
             line-height: 21px;
             transition: all .3s ease-in-out;
-            transform: translateX(-10px);
+            transform: translateX(10px);
             opacity: 0;
           } 
 
