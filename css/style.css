@@ -284,7 +284,7 @@ body {
             margin: 0;
             font-size: 16px;
             line-height: 1.35;
-            transition-property: opacity, translate, visibility;
+            transition-property: opacity, transform, visibility;
             transition-duration: .3s;
             transition-timing-function: ease-in-out;
             transition-delay: .15s;        
@@ -308,7 +308,7 @@ body {
           .t456 .t456__list_item {
             display: inline-block;
             line-height: 21px;
-            transition-property: opacity, translate, visibility;
+            transition-property: opacity, transform, visibility;
             transition-duration: .3s;
             transition-timing-function: ease-in-out;
             transition-delay: 0;
