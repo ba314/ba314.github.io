@@ -287,7 +287,6 @@ body {
             transition-timing-function: ease-in-out;
             transition-delay: .15s;        
             transform: translateX(0); */
-            animation: fade-in .3s ease-in-out .15s;
             opacity: 1;
             visibility: visible;
           }
@@ -295,7 +294,6 @@ body {
             .t456_opened + .t456 .t456__logo {
               /* transition-delay: 0;
               transform: translateX(-10px); */ 
-              animation: fade-out .3s ease-in-out;
               opacity: 0;
               visibility: hidden;
             }  
@@ -304,59 +302,26 @@ body {
           padding: 10px;
           box-sizing: border-box;
         }
-  
-          /* .t456__list {
-            transition: opacity 0;
-            opacity: 0;
-          }  
-  
-          .t456_opened + .t456 .t456__list {
-            opacity: 1;
-          } */
             
-            .t456 .t456__list_item {
-              display: inline-block;
-              line-height: 21px;
-              /* transition-property: opacity, transform, visibility;
-              transition-duration: .3s;
-              transition-timing-function: ease-in-out;
-              transition-delay: 0;
-              transform: translateX(10px); */
-              animation: fade-out .3s ease-in-out;
-              opacity: 0;
-              visibility: hidden;
-            } 
+          .t456 .t456__list_item {
+            display: inline-block;
+            line-height: 21px;
+            /* transition-property: opacity, transform, visibility;
+            transition-duration: .3s;
+            transition-timing-function: ease-in-out;
+            transition-delay: 0;
+            transform: translateX(10px); */
+            opacity: 0;
+            visibility: hidden;
+          } 
 
-            .t456_opened + .t456 .t456__list_item {
-              /* transition-delay: .15s;
-              transform: translateX(0); */  
-              animation: fade-in .3s ease-in-out .15s;
-              opacity: 1;
-              visibility: visible;
-            }  
+          .t456_opened + .t456 .t456__list_item {
+            /* transition-delay: .15s;
+            transform: translateX(0); */  
+            opacity: 1;
+            visibility: visible;
+          }  
 }
-
-@keyframes fade-in {
-  0% { 
-    opacity: 0;
-    visibility: hidden;
-  },
-  100% {
-    opacity: 1;
-    visibility: visible;
-  }  
-}  
-
-@keyframes fade-out {
-  0% { 
-    opacity: 1;
-    visibility: visible;
-  },
-  100% {
-    opacity: 0;
-    visibility: hidden;
-  }  
-} 
 
 @media screen and (max-width: 320px) {
   .t456__rightwrapper {
