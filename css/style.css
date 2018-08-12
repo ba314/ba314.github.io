@@ -431,6 +431,10 @@ body {
     .t-btn {
       width: 100%;
     }
+  
+  .t467 .t-btn {
+    margin-bottom: 10px;
+  }
 }
 
 .t478__title {
