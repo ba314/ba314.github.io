@@ -429,11 +429,15 @@ body {
 }
 
 .t467 .t-btn:hover, .t467 .t-btn:active {
-  background-color: rgba(34, 167, 240, .8) !important;
+  background-color: rgba(34, 167, 240, .9) !important;
+}
+
+.t480 .t-btn table, .t480 .t-btn table {
+  opacity: 1;
 }
 
 .t480 .t-btn:hover table, .t480 .t-btn:active table {
-  opacity: .8;
+  opacity: .9;
 }
 
 @media screen and (max-width: 960px) {
