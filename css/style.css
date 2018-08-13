@@ -651,8 +651,20 @@ body {
 }  
 
 .t572__text {
-  font-size: 18px;
+  font-size: 28px;
   line-height: 1.55;
+}
+
+@media screen and (max-width: 640px) {
+  .t572__text {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .t572__text {
+    font-size: 20px;
+  }
 }
 
   .t195__text a,
@@ -671,28 +683,16 @@ body {
   }  
 
   .t195__text a:hover, .t195__text a:active {
-    box-shadow: inset 0px -0px 0px 0px #22a7f0 !important;
-    -webkit-box-shadow: inset 0px -0px 0px 0px #22a7f0 !important;
-    -moz-box-shadow: inset 0px -0px 0px 0px #121212 !important;
+    box-shadow: inset 0 0 0 0 #22a7f0 !important;
+    -webkit-box-shadow: inset 0 0 0 0 #22a7f0 !important;
+    -moz-box-shadow: inset 0 0 0 0 #121212 !important;
   }  
 
   .t572__text a:hover, .t572__text a:active, 
   .t795__descr a:hover, .t795__descr a:active {
-    box-shadow: inset 0px -1px 0px 0px #22a7f0 !important;
-    -webkit-box-shadow: inset 0px -1px 0px 0px #22a7f0 !important;
-    -moz-box-shadow: inset 0px -1px 0px 0px #121212 !important;
-  }
-
-  @media screen and (max-width: 640px) {
-    .t572__text {
-      font-size: 24px;
-    }
-  }
-
-  @media screen and (max-width: 320px) {
-    .t572__text {
-      font-size: 20px;
-    }
+    box-shadow: inset 0 -1px 0 0 #22a7f0 !important;
+    -webkit-box-shadow: inset 0 -1px 0 0 #22a7f0 !important;
+    -moz-box-shadow: inset 0 -1px 0 0 #121212 !important;
   }
 
   .t-sociallinks__svg {
