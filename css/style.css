@@ -648,12 +648,6 @@ body {
   }
 }
 
-@media screen and (max-width: 960px) {   
-  .t490 .t-section__topwrapper {
-    margin-bottom: 45px;
-  }
-}
-
 @media screen and (max-width: 320px) {  
   .t490 .t-name {
     font-size: 21px !important;
