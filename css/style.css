@@ -335,6 +335,10 @@ body {
     } 
 }  
 
+.t456__list_item .t-active {
+  opacity: 1;
+}
+
 #rec51885586 .t-menu__link-item::after { 
   bottom: 0; 
 }
