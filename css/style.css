@@ -631,7 +631,7 @@ body {
   }
   
   .t490 .t-section__topwrapper {
-    margin-bottom: 105px;
+    margin-bottom: 75px;
   }
   
   .t490__col {
@@ -639,12 +639,18 @@ body {
     max-width: 50%;
   }  
   
-  .t490__col:nth-child(n+11) {
+  .t490__col:nth-child(n+12) {
     margin-bottom: 0;
   }  
   
   .t490__wrappercenter {
     padding: 0;
+  }
+}
+
+@media screen and (max-width: 960px) {   
+  .t490 .t-section__topwrapper {
+    margin-bottom: 45px;
   }
 }
 
