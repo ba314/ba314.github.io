@@ -613,6 +613,10 @@ body {
           .t389__list_item {
             margin: 0 10px 0 0;
           }
+            
+            .t389__typo {
+              font-size: 14px;
+            }
 }
 
 
