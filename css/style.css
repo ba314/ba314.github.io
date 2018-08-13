@@ -395,7 +395,11 @@ body {
 }
 
 .t-btn {
-  transition-property: transform, box-shadow;
+  transition-property: background-color, transform, box-shadow;
+}
+
+.t-btn table {
+  transition-property: opacity;
 }
 
 .t195__imgsection {
@@ -422,6 +426,14 @@ body {
 .t-btn:hover, .t-btn:active,
 .t195__img:hover, .t195__img:active {
   box-shadow: 0 4px 24px rgba(0, 0, 0, .24);
+}
+
+.t467 .t-btn:hover, .t467 .t-btn:active, {
+  background-color: rgba(34, 167, 240, .8) !important;
+}
+
+.t480 .t-btn:hover table, .t480 .t-btn:active table, {
+  opacity: .8;
 }
 
 @media screen and (max-width: 960px) {
