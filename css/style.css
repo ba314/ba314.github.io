@@ -398,10 +398,6 @@ body {
   transition-property: background-color, transform, box-shadow;
 }
 
-.t-btn table {
-  transition-property: opacity;
-}
-
 .t195__imgsection {
   transition-property: transform;
 }
@@ -433,6 +429,7 @@ body {
 }
 
 .t480 .t-btn table, .t480 .t-btn table {
+  transition: opacity .3s cubic-bezier(.25, .1, .25, 1);
   opacity: 1;
 }
 
@@ -529,8 +526,8 @@ body {
 
 .t389__typo:not(.t389__copyright),
 .t389__typo a {
-  -webkit-transition: color 0.3s ease-in-out, opacity 0.3s ease-in-out;
-  transition: color 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  -webkit-transition: color .3s ease-in-out, opacity .3s ease-in-out;
+  transition: color .3s ease-in-out, opacity .3s ease-in-out;
   position: relative;
 }
 
