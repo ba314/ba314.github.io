@@ -190,6 +190,12 @@ body {
   min-width: 180px;
 }
 
+@media screen and (min-width: 481px) {
+  .t-rec_pt_210 {
+    padding-top: 240px !important;
+  } 
+}
+
 
 /* Header */
 
