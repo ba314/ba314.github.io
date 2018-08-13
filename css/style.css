@@ -639,6 +639,10 @@ body {
     max-width: 50%;
   }  
   
+  .t490__col:nth-child(n+11) {
+    margin-bottom: 0;
+  }  
+  
   .t490__wrappercenter {
     padding: 0;
   }
