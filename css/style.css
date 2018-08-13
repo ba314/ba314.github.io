@@ -434,7 +434,7 @@ body {
 }
 
 .t480 .t-btn:hover table, .t480 .t-btn:active table {
-  opacity: .9;
+  opacity: .8;
 }
 
 @media screen and (max-width: 960px) {
