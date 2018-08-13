@@ -428,11 +428,11 @@ body {
   box-shadow: 0 4px 24px rgba(0, 0, 0, .24);
 }
 
-.t467 .t-btn:hover, .t467 .t-btn:active, {
+.t467 .t-btn:hover, .t467 .t-btn:active {
   background-color: rgba(34, 167, 240, .8) !important;
 }
 
-.t480 .t-btn:hover table, .t480 .t-btn:active table, {
+.t480 .t-btn:hover table, .t480 .t-btn:active table {
   opacity: .8;
 }
 
