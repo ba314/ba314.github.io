@@ -504,7 +504,8 @@ body {
   filter: drop-shadow(0 4px 24px rgba(0, 0, 0, .24));
 }  
 
-#rec60711433 img {
+#rec60711433 img,
+.t116__videowrapper {
   mix-blend-mode: multiply;
 }  
 
