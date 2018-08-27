@@ -743,7 +743,7 @@ body {
   
   .t195__text a:hover, .t195__text a:active,
   .t572__text a:hover, .t572__text a:active,
-  .t795__descr a:hover, t795__descr a:active {
+  .t795__descr a:hover, .t795__descr a:active {
     color: #22a7f0 !important;
     border-bottom: 1px solid #22a7f0 !important;
   }  
