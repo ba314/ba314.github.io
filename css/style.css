@@ -741,6 +741,7 @@ body {
     transition-property: color, border-bottom, box-shadow, -webkit-box-shadow;
   }  
   
+  .t004 a:hover, .t004 a:active,
   .t195__text a:hover, .t195__text a:active,
   .t572__text a:hover, .t572__text a:active,
   .t795__descr a:hover, .t795__descr a:active {
