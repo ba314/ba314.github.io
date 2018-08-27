@@ -175,7 +175,7 @@ body {
 .t-text, .t-descr {
   -webkit-locale: "ru";
   -webkit-hyphens: auto;    
-  -webkit-hyphenate-limit-before: 4;
+  -webkit-hyphenate-limit-before: 5;
   -webkit-hyphenate-limit-after: 4;
 }
 
