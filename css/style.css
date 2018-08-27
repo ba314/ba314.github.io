@@ -732,6 +732,7 @@ body {
   }
 }
 
+  .t004 a,
   .t195__text a,
   .t572__text a,
   .t795__descr a {
@@ -749,6 +750,7 @@ body {
     border-bottom: 1px solid #22a7f0 !important;
   }  
 
+  .t004 a:hover, .t004 a:active,
   .t195__text a:hover, .t195__text a:active {
     box-shadow: inset 0 0 0 0 #22a7f0 !important;
   }  
