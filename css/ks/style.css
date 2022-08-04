@@ -262,7 +262,4 @@
 .uc-cover {
   background: #1b065e;
   background: linear-gradient(135deg, #1b065e 0%, #ff87ab 100%);
-  background: -moz-linear-gradient(135deg, #1b065e 0%, #ff87ab 100%);
-  background: -webkit-linear-gradient(135deg, #1b065e 0%, #ff87ab 100%);
-  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#1b065e", endColorstr="#ff87ab", GradientType=1 );
 }
