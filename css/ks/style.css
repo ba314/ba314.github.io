@@ -18,6 +18,11 @@
   font-weight: 900;
 }
 
+.t-text,
+.t-descr {
+  font-weight: 500;
+}
+
 .tmenu-mobile,
 .t228 {
   box-shadow: 0 4px 8px rgba(1, 4, 0, 0.12);
